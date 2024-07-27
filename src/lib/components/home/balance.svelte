@@ -13,7 +13,7 @@
 	</div>
 	<div>
 		<span class="text-sm font-semibold opacity-30 md:pl-[1ch] md:text-base">
-			{format({ n: $totalBalanceBtc ?? 0, dp: 8 })} BTC
+			{format({ n: $totalBalanceBtc ?? 1, dp: 8 })} BTC
 		</span>
 	</div>
 </div>
